@@ -3,8 +3,102 @@
 <head>
 	<meta charset="utf-8">
 	<title>Olá mundo</title>
+	<style>
+		p {
+			color: blue;
+			font-size: 20px;
+			width: 200px;
+		}
+
+		h1 {
+			color: green;
+			font-size: 36px;
+			text-align: center;
+			width: 300px;
+		}
+
+		section {
+			width: 500px;
+			font-size: 16px;
+			color: darkred;
+		}
+
+		.meuteste1 {
+			font-size: 20px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: darkgrey;
+			opacity: 0.4;
+			color: darkorange;
+		}
+
+		#meuteste2 {
+			font-size: 24;
+			background-color: palevioletred;
+			opacity: 0.9;
+		}
+
+		p, h1 {
+			color: blue;
+			text-align: center;
+		}
+
+		p.slt {
+			font-size: 50px;
+			font-weight: bold;
+			text-align: right;
+			width: 500px;
+		}
+
+		article > p {
+			text-align: right;
+			width: 500px;
+		}
+
+		article  p {
+			text-align: right;
+			width: 500px;
+			color: darkred;
+		}
+
+	</style>
 </head>
 <body>
+
+<h1>Testando o seletor CSS</h1>
+<div  class="meuteste1"> Isso aqui é um div para testar o seletor </div>
+<p class="meuteste1">Aqui vamos definir um parágrado e ver o que acontece</p>
+<p class="slt">Aqui vamos definir um parágrado e ver o que acontece hahaha</p>
+<section> Também podemos definir uma seção
+	<article class="meuteste1">Artigo 1</article>	
+	<article>Artigo 2</article>	
+	<article>Artigo 3</article>	
+
+	Podemos ainda definir uma lista ordenada dentro dessa seção
+
+	<p> Que tal colocar um div aqui?</p>
+	<div><p> Que tal colocar um div aqui? HAHAHAHAHA</p></div>
+
+	<div>
+	<ol>
+		<li id="meuteste2">Coisa 1</li> 
+		<li>Coisa 2</li> 
+		<li>Coisa 3</li> 
+		<ol id="meuteste2">
+			<li>Coisa 1</li> 
+			<li>Coisa 1</li> 
+			<li>Coisa 1</li> 
+		</ol>
+		<li> Aqui vai outra coisa </li>
+	</ol>	
+E assim por diante
+	
+</div>
+</section>
+
+
+
+
 <div id="section2"> Alguma cois aaqui</div>
 <div> Alguma outra coisa aqui </div>
 <div> So para testar mesmo</div>
