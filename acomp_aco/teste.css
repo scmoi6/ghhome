@@ -80,13 +80,15 @@ li {
   vertical-align: center;
   font-weight: bold;
   text-align: left;
+  padding-left: 2px;
 }
 
 .clvl {
   width: 200px;
   font-size: 12px;
-  height: 16px;
+  //height: 16px;
   text-align: center;
+  padding: 2px;
 }
 
 .pos {
