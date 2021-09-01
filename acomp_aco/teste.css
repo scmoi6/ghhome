@@ -94,12 +94,13 @@ li {
 .pos {
   color: rgba(0,114,189,1);
   text-align: right;
+  font-weight: bold;
 }
 
 .neg {
   color: rgba(217,83,25,1);
   text-align: right;
-  width: 500px;
+  font-weight: bold;
 }
 
 .cltxt {
