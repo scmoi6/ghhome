@@ -190,3 +190,15 @@ tr{
   font-size: 12px;
   width: 200px;
 }
+
+.clhd3 {
+  width: 150px;
+  background-color: rgba(175, 175, 175, 0.5);
+  color: rgba(30,30,30,1);
+  font-size: 12px;
+  /*height: 14px;*/
+  vertical-align: center;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 2px;
+}
