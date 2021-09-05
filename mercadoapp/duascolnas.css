@@ -183,3 +183,10 @@ li {
 tr{
   border-bottom: 1pt solid black;
 }
+
+.tbltm {
+  font-family: "lato", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  width: 200px;
+}
