@@ -139,7 +139,7 @@ li {
   width: 750px;
   background-color: rgba(175, 175, 175, 0.5);
   color: rgba(30,30,30,1);
-  font-size: 14px;
+  font-size: 12px;
   height: 16px;
   vertical-align: center;
   font-weight: bold;
@@ -149,7 +149,7 @@ li {
 
 .clvlr {
   width: 750px;
-  font-size: 14px;
+  font-size: 12px;
   /*height: 16px;*/
   text-align: left;
   padding: 2px;
@@ -158,7 +158,7 @@ li {
 .tblm {
   font-family: "lato", sans-serif;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   width: 750px;
 }
 
@@ -166,7 +166,7 @@ li {
     /*background-color: #95a5a6*/;
     color: rgba(50, 50, 50, 1);
     font-weight: 550;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.03em;
     align: center;
   }
@@ -216,4 +216,9 @@ tr {
 
 tr:nth-child(odd) {
       background-color: rgba(0, 0, 0, 0.05);
+    }
+
+a:link, a:visited{
+      text-decoration: none;
+      color: rgba(30,30,30,1);
     }
