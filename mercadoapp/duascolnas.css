@@ -168,6 +168,7 @@ li {
     font-weight: 550;
     font-size: 14px;
     letter-spacing: 0.03em;
+    align: center;
   }
 
   .post {
@@ -180,7 +181,7 @@ li {
   text-align: center;
 }
 
-tr{
+tr {
   border-bottom: 1pt solid black;
 }
 
