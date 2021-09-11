@@ -1,0 +1,63 @@
+
+.post {
+  color: rgba(0,114,189,1);
+  text-align: center;
+  font-weight: 500;
+}
+.negt {
+  color: rgba(217,83,25,1);
+  text-align: center;
+  font-weight: 500;
+}
+
+a:link, a:visited{
+      text-decoration: none;
+      color: rgba(30,30,30,1);
+    }
+
+table {
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
+
+.tblm>tbody>tr>td, .tblm>tbody>tr>th, .tblm>tfoot>tr>td, .tblm>tfoot>tr>th, .tblm>thead>tr>td, .tblm>thead>tr>th {
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.clsecr {
+  border: 1px black;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  /*height: 50px;*/
+  overflow: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.clsect {
+  border: 1px black;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  /*height: 50px;*/
+  overflow: auto;
+  width: 100%;
+  height: 240px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.rdp {
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  border-width: 1px;
+  background-color:rgba(0, 0, 100, 0.1);
+}
