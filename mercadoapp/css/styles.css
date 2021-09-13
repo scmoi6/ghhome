@@ -61,3 +61,11 @@ table {
   border-width: 1px;
   background-color:rgba(0, 0, 100, 0.1);
 }
+
+.inicio {
+  text-align: center;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
