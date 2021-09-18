@@ -23,8 +23,8 @@ Highcharts.chart('container', {
     title: {
       text: 'Variação (%)'
     },
-    min: -2.2761161633080285,
-    max: -0.6142102266804672,
+    //min: "mmmm",
+    //max: "MMMM",
   },
   tooltip: {
     headerFormat: '<b>{series.name}</b><br>',
@@ -33,7 +33,7 @@ Highcharts.chart('container', {
 
   plotOptions: {
     series: {
-      lineWidth: 2,
+      lineWidth: 1,
       marker: {
         enabled: false
       }
@@ -41,16 +41,11 @@ Highcharts.chart('container', {
   },
 
   //colors: ['#6CF', '#39F', '#06C', '#036', '#000'],
-  colors: ['#ff7b7b', '#6CF', '#06C', '#036', '#000'],
+  //colors: ['#ff7b7b', '#6CF', '#06C', '#036', '#000'],
 
-  series: [{
-    name: "",
-    data: [
-      [Date.UTC(1971, 4, 3, 11, 11, 37), 0],
-[Date.UTC(1971, 4, 3, 17, 01, 50), 0],
+  colors: ['#d70000','#9b0000'],/n
 
-    ]
-  },
+  series: [
   {
     name: "Carteira 1",
     data: [
@@ -495,7 +490,7 @@ Highcharts.chart('container', {
         plotOptions: {
           series: {
             marker: {
-              radius: 1.5
+              radius: 1
             }
           }
         }
