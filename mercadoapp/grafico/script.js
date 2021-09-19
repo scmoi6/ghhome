@@ -43,7 +43,7 @@ Highcharts.chart('container', {
   //colors: ['#6CF', '#39F', '#06C', '#036', '#000'],
   //colors: ['#ff7b7b', '#6CF', '#06C', '#036', '#000'],
 
-  colors: ['#0072BD','#328eca'],
+  colors: ['#d95319','#ad4214'],
 
   series: [
   {
